@@ -1,15 +1,18 @@
 //I parte, cambiar color y texto a darkblue
 
 function changeColor(){
-    //Escribe tu código aquí
+    let background = document.getElementById("background");
+    background.style.backgroundColor = 'darkblue';
 };
 
 function changeText(){
-    //Escribe tu código aquí
+    let background = document.getElementById("background");
+    background.style.color = 'darkblue'
 }; 
 
 function changeStyles(){
-    //Escribe tu código aquí
+   changeColor();
+   changeText();
 };
 
 export {changeColor, changeText, changeStyles}
