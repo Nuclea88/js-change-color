@@ -3,11 +3,13 @@
 function changeColor(){
     let background = document.getElementById("background");
     background.style.backgroundColor = 'darkblue';
+    
 };
 
 function changeText(){
-    let background = document.getElementById("background");
-    background.style.color = 'darkblue'
+    let text = document.getElementById("text");
+    text.innerHTML = 'darkblue';
+    text.style.color ='darkblue';
 }; 
 
 function changeStyles(){
